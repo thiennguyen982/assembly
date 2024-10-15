@@ -52,4 +52,3 @@ The maximum is: 100
 This project is distributed under the MIT License. See `LICENSE` for more information.
 ```
 
-Make sure to adjust paths or commands based on your specific environment and add any other details or dependencies you find necessary.
