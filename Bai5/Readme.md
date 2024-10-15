@@ -1,35 +1,42 @@
-SPIM Example: Maximum of Two Numbers
-This project demonstrates a simple assembly program that calculates the maximum of two numbers using the SPIM simulator.
+```markdown
+# getmax.s - MIPS Assembly Program
 
-Requirements
-SPIM: Version 8.0 (or later)
-SPIM is a MIPS32 simulator that runs assembly language programs.
-Assembly Source File: getmax.s
-The assembly program prompts the user for two numbers and outputs the maximum.
-Installation
-Install SPIM:
+This repository contains a MIPS assembly program that reads two integers from the user and prints the maximum of the two. The program is designed to run using the SPIM simulator.
 
-On Debian-based systems (e.g., Ubuntu), run:
+## Prerequisites
 
-bash
-Copy code
+Before you can run the program, ensure you have the following installed on your system:
+
+- [SPIM](http://spimsimulator.sourceforge.net/) (version 8.0 or later)
+
+To install SPIM on Ubuntu/Debian-based systems, run:
+
+```bash
 sudo apt-get install spim
-For other platforms, refer to SPIM's official documentation.
+```
 
-Clone or download the getmax.s file and place it in your working directory.
+## How to Run
 
-Usage
-Running the Program:
+1. Clone this repository to your local machine.
+2. Open a terminal in the project directory.
+3. Use SPIM to run the `getmax.s` program by executing the following command:
 
-Execute the getmax.s file using the SPIM simulator with the following command:
-
-bash
-Copy code
+```bash
 spim -file getmax.s
-Example Output:
+```
 
-yaml
-Copy code
+4. You will be prompted to enter two integers:
+
+```bash
+Enter two numbers: 50
+100
+```
+
+The program will then print the maximum of the two numbers.
+
+## Example Output
+
+```bash
 SPIM Version 8.0 of January 8, 2010
 Copyright 1990-2010, James R. Larus.
 All Rights Reserved.
@@ -38,5 +45,11 @@ Loaded: /usr/lib/spim/exceptions.s
 Enter two numbers: 50
 100
 The maximum is: 100
-The program will prompt you to enter two numbers.
-It will then compare the numbers and print the larger one.
+```
+
+## License
+
+This project is distributed under the MIT License. See `LICENSE` for more information.
+```
+
+Make sure to adjust paths or commands based on your specific environment and add any other details or dependencies you find necessary.
