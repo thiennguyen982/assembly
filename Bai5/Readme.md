@@ -1,4 +1,4 @@
-```markdown
+
 # getmax.s - MIPS Assembly Program
 
 This repository contains a MIPS assembly program that reads two integers from the user and prints the maximum of the two. The program is designed to run using the SPIM simulator.
